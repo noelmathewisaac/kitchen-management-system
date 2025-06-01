@@ -36,7 +36,7 @@ export default function SearchBar() {
     }
 
     // Update the URL with the new search params
-    router.push(`/?${params.toString()}`)
+    router.push(`/recipes?${params.toString()}`)
   }, [debouncedQuery, initialQuery, router, searchParams])
 
   return (
