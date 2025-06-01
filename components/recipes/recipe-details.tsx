@@ -150,7 +150,7 @@ export default function RecipeDetails({ recipeId }: RecipeDetailsProps) {
     <main className="w-full px-4 md:px-8 lg:px-16 xl:px-24 py-8 max-w-[1600px] mx-auto">
       <div className="flex justify-between items-center mb-6">
         <Link
-          href="/"
+          href="/recipes"
           className={`inline-flex items-center ${textClasses.body} text-gray-700 hover:text-gray-900 focus:outline-none focus:underline`}
           aria-label="Back to recipes"
         >
